@@ -45,6 +45,26 @@ body {
     padding: 100px;
 }
 
+.lbl-score-to-win {
+    position: absolute;
+    right: 45%;
+    top: 90%;
+    font-size: 20px;
+}
+
+.lbl-score-to-win input {
+    width: 3em;
+    color: inherit;
+    border-color: #EB4D4D;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    outline: none;
+}
+
+
+
 
 
 /**********************************************
@@ -162,10 +182,19 @@ i {
     top: 467px;
 }
 
-.dice {
+.dice1 {
     position: absolute;
     left: 50%;
-    top: 178px;
+    top: 130px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.dice2 {
+    position: absolute;
+    left: 50%;
+    top: 250px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
