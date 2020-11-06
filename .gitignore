@@ -1,5 +1,7 @@
+.gitignore
 /2-JS-basics
 /3-how-JS-works
 budgety-planning-guide.pdf
 editors-setup.md
 slides-students-C03.pdf
+node_modules/
